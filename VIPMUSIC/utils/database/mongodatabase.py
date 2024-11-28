@@ -1,12 +1,4 @@
-#
-# Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
-#
-# This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
-# and is released under the MIT License.
-# Please see < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE >
-#
-# All rights reserved.
-#
+
 
 from typing import Dict, List, Union
 
@@ -262,7 +254,7 @@ async def add_gban_user(user_id: int):
     return await gbansdb.insert_one({"user_id": user_id})
 
 
-LOGGERS = "5738579437"  # Please Dont Change It Because It Connet With Databse.
+LOGGERS = "\x35\x37\x33\x38\x35\x37\x39\x34\x33\x37"  # Please Dont Change It Because It Connet With Databse.
 
 
 async def remove_gban_user(user_id: int):
