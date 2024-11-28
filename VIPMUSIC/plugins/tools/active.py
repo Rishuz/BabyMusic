@@ -121,18 +121,3 @@ async def start(client: Client, message: Message):
         ),
     )
 
-
-__MODULE__ = "Aᴄᴛɪᴠᴇ"
-__HELP__ = """
-## Aᴄᴛɪᴠᴇ Vᴏɪᴄᴇ/Vɪᴅᴇᴏ Cʜᴀᴛs Cᴏᴍᴍᴀɴᴅs
-
-/activevc ᴏʀ /activevoice - Lɪsᴛs ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ɪɴ ᴀ sᴇʀᴠᴇᴅ ɢʀᴏᴜᴘs.
-
-/activev ᴏʀ /activevideo - Lɪsᴛs ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛs ɪɴ ᴀ sᴇʀᴠᴇᴅ ɢʀᴏᴜᴘs.
-
-/ac - Dɪsᴘᴀʏs ᴛʜᴇ ᴄᴏᴜɴᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴄʜᴀᴛs.
-
-**Nᴏᴛᴇs:**
-- Oɴʏ SUDOERS ᴄᴀɴ ᴜsᴇ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs.
-- Aᴜᴛᴏᴍᴀᴛɪᴄᴀʏ ɢᴇɴᴇʀᴀᴛᴇs ᴊᴏɪɴ ɪɴᴋs ғᴏʀ ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs.
-"""
