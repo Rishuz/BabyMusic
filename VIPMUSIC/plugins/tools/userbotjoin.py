@@ -201,8 +201,3 @@ async def leave_all(client, message):
         )
 
 
-__MODULES__ = "Userbotjoin"
-__HELP__ = """
-/userbotjoin: Invites the userbot to the current group.
-/userbotleave: Makes the userbot leave the current group.
-/leaveall: Makes the userbot leave all groups where it is present (accessible only to SUDOERS)."""
