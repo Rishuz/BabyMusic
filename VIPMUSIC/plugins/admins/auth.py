@@ -1,12 +1,4 @@
-#
-# Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
-#
-# This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
-# and is released under the MIT License.
-# Please see < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE >
-#
-# All rights reserved.
-#
+
 
 from pyrogram import filters
 from pyrogram.types import Message
@@ -151,7 +143,7 @@ async def authusers(client, message: Message, _):
         await message.reply_text(text)
 
 
-__MODULE__ = "Auᴛʜ"
+__MODULE__ = "• ᴀᴜᴛʜ •"
 __HELP__ = """
 
 <b>Aᴜᴛʜ Usᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.</b>
