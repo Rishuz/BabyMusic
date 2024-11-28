@@ -695,7 +695,7 @@ async def del_back_playlist(client, CallbackQuery, _):
 
 asyncio.create_task(markup_timers())"""
 
-__MODULE__ = "Adᴍɪɴ"
+__MODULE__ = "• ᴀᴅᴍɪɴ •"
 __HELP__ = """
 
 <b>c sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.</b>
