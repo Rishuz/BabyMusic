@@ -108,20 +108,3 @@ async def del_back_playlist(client, callback_query, _):
     )
 
 
-__MODULE__ = "• sᴘᴇᴇᴅ •"
-__HELP__ = """
-**Speed Control**
-
-This module allows administrators to control the playback speed of audio files in the group.
-
-Commands:
-- /cspeed: Speed up the playback.
-- /speed: Speed up the playback.
-- /cslow: Slow down the playback.
-- /slow: Slow down the playback.
-- /playback: Control the playback speed.
-- /cplayback: Control the playback speed.
-
-Note:
-- Only administrators can use these commands.
-"""
