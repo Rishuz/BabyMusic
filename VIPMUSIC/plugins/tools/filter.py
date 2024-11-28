@@ -38,7 +38,7 @@ from VIPMUSIC.utils.database import (
 from config import BANNED_USERS
 
 
-__MODULE__ = "• Filter •"
+__MODULE__ = "• ғɪʟᴛᴇʀ •"
 __HELP__ = """/filters To Get All The Filters In The Chat.
 /filter [FILTER_NAME] To Save A Filter(reply to a message).
 
