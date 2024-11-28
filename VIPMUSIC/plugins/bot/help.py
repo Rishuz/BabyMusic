@@ -433,13 +433,13 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ",
+                text="• ᴋɪᴅɴᴀᴘ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ •",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="music"),
-            InlineKeyboardButton(text="ᴍᴀɴᴇɢᴇᴍᴇɴᴛ", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="• ᴍᴜsɪᴄ •", callback_data="music"),
+            InlineKeyboardButton(text="• ᴍᴏᴅᴇ •", callback_data="settings_back_helper"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -476,12 +476,12 @@ def back_to_music(_):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data="developer"),
-            InlineKeyboardButton(text="ғᴇᴀᴛᴜʀᴇ", callback_data="feature"),
+            InlineKeyboardButton(text="• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", callback_data="developer"),
+            InlineKeyboardButton(text="• ғᴇᴀᴛᴜʀᴇ •", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="ʙᴀsɪᴄ ɢᴜɪᴅᴇ", callback_data="basic_guide"),
-            InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", callback_data="donate"),
+            InlineKeyboardButton(text=" •ʙᴀsɪᴄ ɢᴜɪᴅᴇ •", callback_data="basic_guide"),
+            InlineKeyboardButton(text="• ᴅᴏɴᴀᴛᴇ •", callback_data="donate"),
         ],
         [InlineKeyboardButton(text="⦿Back⦿", callback_data="go_to_start")],
     ]
@@ -496,15 +496,15 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="ᴀʟʟ ʙᴏᴛs",
+                text="• ᴀʟʟ ʙᴏᴛs •",
                 url="https://t.me/Vip_robotz/4",
             ),
         ],
         [
-            InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="• ᴄʜᴀɴɴᴇʟ •", url=f"{config.SUPPORT_CHANNEL}"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -528,7 +528,7 @@ async def settings_back_callback(client: Client, callback_query: CallbackQuery):
 @app.on_callback_query(filters.regex("basic_guide"))
 async def settings_back_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [[InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data="about")]]
-    guide_text = f"**ʜᴇʏ! ᴛʜɪs ɪs ᴀ ǫᴜɪᴄᴋ ᴀɴᴅ sɪᴍᴘʟᴇ ɢᴜɪᴅᴇ ᴛᴏ ᴜsɪɴɢ** {app.mention} **❤️‍🩹**\n\n**1. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ 'ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʟᴀɴ' ʙᴜᴛᴛᴏɴ.**\n**2. sᴇʟᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴀᴍᴇ.**\n**3. ɢʀᴀɴᴛ ᴛʜᴇ ʙᴏᴛ ᴀʟʟ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ғᴏʀ sᴍᴏᴏᴛʜ ᴀɴᴅ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.**\n\n**ᴛᴏ ᴀᴄᴄᴇss ᴄᴏᴍᴍᴀɴᴅs, ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ʙᴇᴛᴡᴇᴇɴ ᴍᴜsɪᴄ ᴏʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴘʀᴇғᴇʀᴇɴᴄᴇs.**\n**ɪғ ʏᴏᴜ sᴛɪʟʟ ғᴀᴄᴇ ᴀɴʏ ɪssᴜᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ ✨**"
+    guide_text = f"**ʜᴇʏ! ᴛʜɪs ɪs ᴀ ǫᴜɪᴄᴋ ᴀɴᴅ sɪᴍᴘʟᴇ ɢᴜɪᴅᴇ ᴛᴏ ᴜsɪɴɢ** {app.mention} **❤️‍🩹**\n\n**1. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ 'ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʟᴀɴ' ʙᴜᴛᴛᴏɴ.**\n**2. sᴇʟᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴀᴍᴇ.**\n**3. ɢʀᴀɴᴛ ᴛʜᴇ ʙᴏᴛ ᴀʟʟ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ғᴏʀ sᴍᴏᴏᴛʜ ᴀɴᴅ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.**\n\n**ᴛᴏ ᴀᴄᴄᴇss ᴄᴏᴍᴍᴀɴᴅs, ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ʙᴇᴛᴡᴇᴇɴ ᴍᴜsɪᴄ ᴏʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴘʀᴇғᴇʀᴇɴᴄᴇs.**\n**ɪғ ʏᴏᴜ sᴛɪʟʟ ғᴀᴄᴇ ᴀɴʏ ɪssᴜᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ •**"
     await callback_query.message.edit_text(
         text=guide_text, reply_markup=InlineKeyboardMarkup(keyboard)
     )
