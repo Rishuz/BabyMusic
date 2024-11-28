@@ -1,16 +1,9 @@
-#
-# Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
-#
-# This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
-# and is released under the MIT License.
-# Please see < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE >
-#
-# All rights reserved.
-#
+#This project is by Rishu #
 
-# This aeval and sh module is taken from < https://github.com/TheHamkerCat/WilliamButcherBot >
-# Credit goes to TheHamkerCat.
-#
+#Kindly join#
+#https://t.me/UR_RISHU_143#
+
+
 import os
 import re
 import subprocess
@@ -220,7 +213,7 @@ async def shellrunner(_, message: Message):
     await message.stop_propagation()
 
 
-__MODULE__ = "Deᴠ"
+__MODULE__ = "• ᴅeᴠ •"
 __HELP__ = """
 🔰<b><u>Aᴅᴅ Aɴᴅ Rᴇᴍᴏᴠᴇ Sᴜᴅᴏ Usᴇʀ's:</u></b>
 
