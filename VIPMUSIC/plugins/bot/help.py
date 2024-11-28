@@ -388,13 +388,8 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
             ],
             [
 InlineKeyboardButton(text="• ᴧᴜᴛʜ •", callback_data="music_callback hb2"),
-                InlineKeyboardButton(
-                    text="• ʙʀᴏᴀᴅᴄᴀsᴛ •", callback_data="music_callback hb3"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="• ʙʟ-ᴄʜᴧᴛ •", callback_data="music_callback hb4"
+           
+InlineKeyboardButton(text="• ʙʟ-ᴄʜᴧᴛ •", callback_data="music_callback hb4"
                 ),
             ],
             [
