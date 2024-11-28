@@ -197,10 +197,3 @@ async def leave_all(client, message):
             message.chat.id,
             f"**✅ ʟᴇғᴛ ғʀᴏᴍ:* {left} chats.\n**❌ ғᴀɪʟᴇᴅ ɪɴ:** {failed} chats.",
         )
-
-
-__MODULES__ = "Userbotjoin"
-__HELP__ = """
-/ᴜsᴇʀʙᴏᴛᴊᴏɪɴ: Iɴᴠɪᴛᴇs ᴛʜᴇ ᴜsᴇʀʙᴏᴛ ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ɢʀᴏᴜᴘ.
-/ᴜsᴇʀʙᴏᴛᴇᴀᴠᴇ: Mᴀᴋᴇs ᴛʜᴇ ᴜsᴇʀʙᴏᴛ ᴇᴀᴠᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ɢʀᴏᴜᴘ.
-/ᴇᴀᴠᴇᴀ: Mᴀᴋᴇs ᴛʜᴇ ᴜsᴇʀʙᴏᴛ ᴇᴀᴠᴇ ᴀ ɢʀᴏᴜᴘs ᴡʜᴇʀᴇ ɪᴛ ɪs ᴘʀᴇsᴇɴᴛ (ᴀᴄᴄᴇssɪʙᴇ ᴏɴʏ ᴛᴏ SUDOERS)."""
