@@ -1,12 +1,8 @@
-#
-# Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
-#
-# This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
-# and is released under the MIT License.
-# Please see < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE >
-#
-# All rights reserved.
-#
+#This project is by Rishu #
+
+#Kindly join#
+#https://t.me/UR_RISHU_143#
+
 
 from pykeyboard import InlineKeyboard
 from pyrogram import filters
