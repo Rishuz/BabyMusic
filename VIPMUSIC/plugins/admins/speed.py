@@ -108,7 +108,7 @@ async def del_back_playlist(client, callback_query, _):
     )
 
 
-__MODULE__ = "Speed"
+__MODULE__ = "• sᴘᴇᴇᴅ •"
 __HELP__ = """
 **Speed Control**
 
