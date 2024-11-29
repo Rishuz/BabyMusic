@@ -1,4 +1,3 @@
-
 import os
 import re
 from os import getenv
@@ -36,6 +35,24 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 
+EXTRA_PLUGINS = getenv(
+    "EXTRA_PLUGINS",
+    "False",
+)
+
+# Fill True if you want to load extra plugins
+
+
+EXTRA_PLUGINS_REPO = getenv(
+    "EXTRA_PLUGINS_REPO",
+    "https://github.com/Rishabhopi/Extra-Plugin",
+)
+# Fill here the external plugins repo where plugins that you want to load
+
+
+EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
+
+# Your folder name in your extra plugins repo where all plugins stored
 
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
@@ -81,31 +98,23 @@ GIT_TOKEN = getenv(
     "",
 )
 
-EXTRA_PLUGINS = getenv(
-    "EXTRA_PLUGINS",
-    "False",
-)
-# Fill True if you want to load extra plugins
-EXTRA_PLUGINS_REPO = getenv(
-    "EXTRA_PLUGINS_REPO",
-    "https://github.com/Rishabhopi/Extra-Plugin",
-)
-# Fill here the external plugins repo where plugins that you want to load
-EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
-# Your folder name in your extra plugins repo where all plugins stored
+# Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting.
+AUTO_GCAST = os.getenv("AUTO_GCAST", "on")
 
+# Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
+AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ur_rishu_143"
-)  
+)  # Example:- https://t.me/RishuTeam
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/ur_support07"
-)   
+)  # Example:- https://t.me/RishuNetwork 
 
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/Ur_support07"
-)  
+)  # Example:- https://t.me/ur_support07
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -166,26 +175,26 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", "False")
 
 
-# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @RishuStringBot
+# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-#   ___  __ _    _  _____ _____ _____   _____   ____ ________
-#   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __/
-#   | \  / | |  | | (___   | || |       | |_) | |  | | | |
-#   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |
-#   | |  | | |__| |____) |_| || |____   | |_) | |__| | | |
-#   |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|
+#    __      _______ _____    ___  __ _    _  _____ _____ _____   _____   ____ ________
+#    \ \    / /_   _|  __ \   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __/
+#     \ \  / /  | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |
+#      \ \/ /   | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |
+#       \  /   _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |
+#        \/   |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|
 
 
 ### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Rishulogs.txt"
+LOG_FILE_NAME = "VIPlogs.txt"
 TEMP_DB_FOLDER = "tempdb"
 adminlist = {}
 lyrical = {}
@@ -200,12 +209,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/3d3.jpg",
+    "https://envs.sh/bJh.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/3d4.jpg",
+    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
