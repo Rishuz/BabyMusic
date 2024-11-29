@@ -12,7 +12,7 @@ import config
 from config import BANNED_USERS
 from VIPMUSIC import HELPABLE, LOGGER, app, userbot
 from VIPMUSIC.core.call import VIP
-from VIPMUSIC.plugins import ALL_MODULES
+
 from VIPMUSIC.utils.database import get_banned_users, get_gbanned
 
 
@@ -61,5 +61,5 @@ async def init():
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop_policy().get_event_loop().run_until_complete(init())
+    
     LOGGER("VIPMUSIC").info("Stopping VIPMUSIC! GoodBye")
